@@ -2,6 +2,7 @@ build/Chapter1:build/Chapter1.o
 	g++ -o build/Chapter1 build/Chapter1.o
 
 build/Chapter1.o:src/Chapter1.cpp
+	mkdir build
 	g++ -c src/Chapter1.cpp -o build/Chapter1.o
 
 clean:
